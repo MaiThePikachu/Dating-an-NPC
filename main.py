@@ -31,6 +31,7 @@ print()
 # Pretty much the beginning of the story
 print("Perfect! Now that we have that done you can start the story. This takes place in (I guess) your bedroom and you're playing a game on your computer. It was an oddly popular game because in a way it was ''magical''. Alas it was some first-person, futuristic yet medieval polygon game. It had a couple of bugs allowing you to clip through many of the games objects. Things like trees and entire buildings even. Your walking through the forest clipping though a couple trees out of boredom. All of a sudden some bushes start moving.")
 
+print()
 
 # The boy route
 if char == "boy":
@@ -46,8 +47,9 @@ if char == "boy":
     print("???: Who are you? Are you an apprentice to that wall phasing fool?")
 
     print("...")
-    option_2 = input("")
-  elif option_1 == stay:
+    option_2 = input("Who're you calling wall phasing fool!")
+    
+  elif option_1 == "stay":
     print("???: Hey you! Don't ignore me where am I?")
 
 # The girl route
