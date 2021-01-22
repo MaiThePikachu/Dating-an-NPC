@@ -9,7 +9,7 @@ Created:	date in 18/01/2021
 '''
 
 # Welcome message
-print("Welcome! This is a text based game in a sense. This isn't the type of dating sim with buttons. It's one where you have to type the answers. When the choices are printed they will have ' ' around them and then you'll be able to type one of the given answers. (Please don't type the ' '. Also check if you typed the answers correctly because I don't have anything that will prevent you from mispelling. If you spell wrong have fun getting thrown down a random story line. :3)")
+print("Welcome! This is a text based game in a sense. This isn't the type of dating sim with buttons. It's one where you have to type the answers. When the choices are printed they will have ' ' around them and then you'll be able to type one of the given answers. (Please don't type the ' '. Also check if you typed the answers correctly because I don't have anything that will prevent you from mispelling. If you spell wrong then you have to do it all over again.)")
 
 # A lot of variable questions for making a partner
 print()
@@ -39,16 +39,16 @@ if char == "boy":
 
   print()
 
-  option_1 = input("Do you 'turn_around' or do you 'stay': ")
+  option_1 = input("Do you 'turn around' or do you 'stay': ")
 
-  if option_1 == "turn_around":
+  if option_1 == "turn around":
     print("???: Okay foolish human where did you send me.")
     print("*They hold a blade towards you*.")
     print("???: Who are you? Are you an apprentice to that wall phasing fool?")
 
     print("...")
-    option_2 = input("Who're you calling wall phasing fool!")
-    
+    option_2 = input("")
+
   elif option_1 == "stay":
     print("???: Hey you! Don't ignore me where am I?")
 
@@ -62,7 +62,7 @@ elif char == "girl":
 
   print()
 
-  option_1 = input("'help_her' or ask  'who_are_you?': ")
+  option_1 = input("'help her' or ask  'who are you?': ")
 
-  if option_1 == "help_her":
+  if option_1 == "help her":
     print()
