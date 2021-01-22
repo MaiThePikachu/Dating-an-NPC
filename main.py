@@ -8,12 +8,6 @@ Created:	date in 18/01/2021
 ------------------------------------------------------------------------------
 '''
 
-# Some variables for the game
-boy = True
-girl = True
-char = 
-
-
 # Welcome message
 print("Welcome! This is a text based game in a sense. This isn't the type of dating sim with buttons. It's one where you have to type the answers. When the choices are printed they will have ' ' around them and then you'll be able to type one of the given answers. (Please don't type the ' '. Also check if you typed the answers correctly because I don't have anything that will prevent you from mispelling. If you spell wrong have fun getting thrown down a random story line. :3)")
 
@@ -39,14 +33,14 @@ print("Perfect! Now that we have that done you can start the story. This takes p
 
 
 # The boy route
-if char == boy:
+if char == "boy":
   print("A blur jumps out and lunges at your charater driving their sword into it's stomach. You roll your swivel chair (aka spinny chair) backwards from surprize wondering if this game really is buggy. You turn around the chair wondering if you saw what happened corretly when you hear a loud thump behind you.")
 
   print()
 
   option_1 = input("Do you 'turn_around' or do you 'stay': ")
 
-  if option_1 == turn_around:
+  if option_1 == "turn_around":
     print("???: Okay foolish human where did you send me.")
     print("*They hold a blade towards you*.")
     print("???: Who are you? Are you an apprentice to that wall phasing fool?")
@@ -57,7 +51,7 @@ if char == boy:
     print("???: Hey you! Don't ignore me where am I?")
 
 # The girl route
-elif char == girl:
+elif char == "girl":
   print("A girl runs out of the bushes and collides with your character. You roll your swivel chair (aka spinny chair) backwards from surprize wondering if this game really is buggy. The girl tumbles out from the screen and drops to the ground.")
       
   print()
@@ -68,5 +62,5 @@ elif char == girl:
 
   option_1 = input("'help_her' or ask  'who_are_you?': ")
 
-  if option_1 == help_her:
+  if option_1 == "help_her":
     print()
