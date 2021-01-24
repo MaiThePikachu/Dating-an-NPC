@@ -13,7 +13,11 @@ print("~~~Date From Another World~~~")
 
 print()
 
-print("Welcome! This is a text based game in a sense. This isn't the type of dating sim with buttons. It's one where you have to type the answers. When the choices are printed they will have ' ' around them and then you'll be able to type one of the given answers. To make this easier I put all of them in lowercase. (Please don't type the ' '. Also check if you typed the answers correctly because I don't have anything that will prevent you from mispelling. If you spell wrong then you have to do it all over again. Don't forget punctuation...I've played through mulitple times to test lol.)")
+print("Welcome! This is a text based game in a sense. This isn't the type of dating sim with buttons. It's one where you have to type the answers. When the choices are printed they will have ' ' around them and then you'll be able to type one of the given answers. To make this easier I put all of them in lowercase. Please don't type the ' '. Also check if you typed the answers correctly because I don't have anything that will prevent you from mispelling. If you spell wrong then you have to do it all over again. Don't forget punctuation...I've played through mulitple times to test lol.")
+
+print()
+
+print("Just a warning: There is a cliff hanger after the quiz game because making an entire love story will take a long time and if I were to make it short and the character easily falls in love with you where's the fun in that?")
 
 # A lot of variable questions for making a partner.
 print()
