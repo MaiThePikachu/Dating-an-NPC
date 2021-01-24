@@ -52,7 +52,7 @@ if char == "boy":
   print()
 
   if option_1 == "turn around":
-    print("???: Okay foolish human where did you send me.")
+    print("???: Okay foolish ghost where did you send me.")
     print("*He holds a blade towards you*.")
     print("???: Who are you? Are you an apprentice to that wall phasing fool?")
 
@@ -122,24 +122,26 @@ if char == "boy":
 
   elif option_1 == "stay":
     print("???: Hey you! Don't ignore me where am I?")
+    print()
 
     option_2 = input("What do you want to say to him? 'who and what are you?' or do you want to 'panic and throw a book at him'")
 
+    print()
 
+    if option_2 == "who and what are you":
+      print("???:What do you mean who and what are you? My name is " + char_name + " and I'm a human. Now I ask. Who and what are you?")
 
+      print()
 
+      print("*You introduce yourself and say that your human too*")
 
+      print()
 
+      print(char_name + ":" + mc + "...That's nice. So what am I doing here?")
 
+      print("*You shrug*")
 
-
-
-
-
-
-
-
-
+      
 
 
 
