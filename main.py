@@ -24,7 +24,7 @@ print()
 mc = input("What is your name: ")
 print()
 
-char = input("Okay. Next up is who do you want to date? A 'boy' or a 'girl': ")
+char = input("Okay. Next up is who do you want to date? A 'boy' or a 'girl'(girl is currently unavailable so sorry you have to choose boy since it's the kinda finished part of the game: ")
 
 print()
 
