@@ -183,9 +183,28 @@ if char == "boy":
 
             else:
               print("You were so close. Sorry to say this but you lost. Try a different answer next time!")
+    else:
+      print("???: In my home town there is some ghost going around and haunting all the people in my town. At the same time I managed to kill the ghost...")
+
+      print()
+
+      print("*He turned around to face the computer and it was buzzing and making weird sounds. He turns to face you*")
+
+      print("???: What's that thing doing its so noisy.")
+
+      print()
+
+      print("*The monitor bursts into flames. You dread over the fact that the monitor was amazing an lasted for so long* (RIP monitor from the beginning of this game - now. Forgot I was here did you :3) *The boy panics and completely freezes the monitor and your tower.* (The pain continues.) *You sit and stare at the now ruined computer.*")
 
 
 
+
+
+
+
+
+
+  # The stay option for the boy.
   elif option_1 == "stay":
     print("???: Hey you! Don't ignore me where am I?")
 
@@ -311,7 +330,7 @@ if char == "boy":
           else:
             print("You were so close. Sorry to say this but you lost. Try a different answer next time!")
 
-    
+
 
 
 
