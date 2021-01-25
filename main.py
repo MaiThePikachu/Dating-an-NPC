@@ -24,7 +24,7 @@ print()
 mc = input("What is your name: ")
 print()
 
-char = input("Okay. Next up is who do you want to date? A 'boy' or a 'girl'(girl is currently unavailable so sorry you have to choose boy since it's the kinda finished part of the game: ")
+char = input("Okay. Next up is who do you want to date? A 'boy' or a 'girl'(girl is currently unavailable so sorry you have to choose boy since it's the kinda finished part of the game): ")
 
 print()
 
@@ -99,90 +99,94 @@ if char == "boy":
 
       print()
 
-      if option_3 == "shrug":
-        print("???:*sigh*")
+     
+      print("???:*sigh*")
         
-        print("*He sits down on the foor*")
+      print("*He sits down on the foor*")
 
-        print("???:I give up...You're really are telling the truth and I have a sense for it. I guess I'm stuck here...My name is " + char_name + " what's yours...")
+      print("???:I give up...You're really are telling the truth and I have a sense for it. I guess I'm stuck here...My name is " + char_name + " what's yours...")
 
-        print("*You tell him your name* (It's polite isn't it?)")
+      print("*You tell him your name* (It's polite isn't it?)")
 
-        print(char_name + ":Huh...Okay " + mc + " What are we going to do about that?")
+      print(char_name + ":Huh...Okay " + mc + " What are we going to do about that?")
 
-        print("*Points his blade at the ruined computer set up.* (Aye time a tiny minigame.) *You grab his blade and drop it to the ground. Then you drag him by the arm out of the house. You go to a nearby computer store.")
+      print("*Points his blade at the ruined computer set up.* (Aye time a tiny minigame.) *You grab his blade and drop it to the ground. Then you drag him by the arm out of the house. You go to a nearby computer store.")
+
+      print()
+
+      print(char_name + ": Oi! Where are you dragging me- What are these things?")
+
+      print()
+
+      # Mini game 
+      print("Okay so mini game time. Are you going to explain all things computers? No that would be too much so this is going to be a small multiple question quiz. Try your best to answer or you'll have to do the story all over again. All you need to do is...")
+
+      print()
+
+      print("TYPE THE LETTER <-Don't forget")
+
+      print()
+
+      print("How does a mouse convert distance for display?")
+      print()
+      print("A. DPI (dots per itch)")
+      print("B. DPI (dots per inch)")
+      print("C. DPS (diameter perimeter speed")
+      print("D. PAD (perimeter area distance")
+
+      question_1 = input("Which letter is correct: ")
+
+      print()
+
+      if question_1 == "B":
+        print("Correct! On to the next question.")
 
         print()
 
-        print(char_name + ": Oi! Where are you dragging me- What are these things?")
-
+        print("Question two. What is the smallest and fastest data storage on a computer?")
         print()
 
-        # Mini game 
-        print("Okay so mini game time. Are you going to explain all things computers? No that would be too much so this is going to be a small multiple question quiz. Try your best to answer or you'll have to do the story all over again. All you need to do is...")
+        print("A. Cashe")
+        print("B. Ram")
+        print("C. Hard Drive")
 
-        print()
-
-        print("TYPE THE LETTER <-Don't forget")
-
-        print()
-
-        print("How does a mouse convert distance for display?")
-        print()
-        print("A. DPI (dots per itch)")
-        print("B. DPI (dots per inch)")
-        print("C. DPS (diameter perimeter speed")
-        print("D. PAD (perimeter area distance")
-
-        question_1 = input("Which letter is correct: ")
-
-        print()
-
-        if question_1 == "B":
-          print("Correct! On to the next question.")
-
-          print()
-
-          print("Question two. What is the smallest and fastest data storage on a computer?")
-          print()
-
-          print("A. Cashe")
-          print("B. Ram")
-          print("C. Hard Drive")
-
-          question_2 = input("Which letter is correct: ")
+        question_2 = input("Which letter is correct: ")
           
+        print()
+
+        if question_2 == "A":
+          print("Correct! On to the last question.")
+
           print()
 
-          if question_2 == "A":
-            print("Correct! On to the last question.")
+          print("Last and final question.")
+          print("What is the refresh on a computer monitor measured in?")
 
-            print()
+          print()
 
-            print("Last and final question.")
-            print("What is the refresh on a computer monitor measured in?")
+          print("A. Hurtz")
+          print("B. Fartz")
+          print("C. Hearts")
+          print("D. Hertz")
 
-            print()
+          question_3 = input("Which letter is correct: ")
 
-            print("A. Hurtz")
-            print("B. Fartz")
-            print("C. Hearts")
-            print("D. Hertz")
+          print()
 
-            question_3 = input("Which letter is correct: ")
-
-            print()
-
-            if question_3 == "D":
-              print("Congratulations! You've completed the game!")
-              print("...")
-              print("For now...")
+          if question_3 == "D":
+            print("Congratulations! You've completed the game!")
+            print("...")
+            print("For now...")
             
-            elif question_3 == "C":
-              print("You were really that desperate? (Sorry for the insensitive joke.)")
+          elif question_3 == "C":
+            print("You were really that desperate? (Sorry for the insensitive joke.)")
 
-            else:
-              print("You were so close. Sorry to say this but you lost. Try a different answer next time!")
+          else:
+            print("You were so close. Sorry to say this but you lost. Try a different answer next time!")
+
+
+
+
     else:
       print("???: In my home town there is some ghost going around and haunting all the people in my town. At the same time I managed to kill the ghost...")
 
@@ -195,6 +199,94 @@ if char == "boy":
       print()
 
       print("*The monitor bursts into flames. You dread over the fact that the monitor was amazing an lasted for so long* (RIP monitor from the beginning of this game - now. Forgot I was here did you :3) *The boy panics and completely freezes the monitor and your tower.* (The pain continues.) *You sit and stare at the now ruined computer.*")
+
+      print()
+
+      print("???: Ah- Was that natural? I'm sorry.")
+
+      print()
+
+      print("*You shake your head. The boy infront of you panics over what to do.*")
+
+      print()
+
+      print("???: Oh! Ummmm...My name is " + char_name + ". We haven't introduced ourselves.")
+
+      print()
+
+      print("*You reluctantly give him an answer.*")
+
+      print(char_name + ": " + mc + " is a nice name. So what do you want to do about that thing?")
+
+      print()
+
+      print("*You take his blade and place it on a table then drag him to a computer store nearby.*")
+
+      # Mini game 
+      print("Okay so mini game time. Are you going to explain all things computers? No that would be too much so this is going to be a small multiple question quiz. Try your best to answer or you'll have to do the story all over again. All you need to do is...")
+
+      print()
+
+      print("TYPE THE LETTER <-Don't forget")
+
+      print()
+
+      print("How does a mouse convert distance for display?")
+      print()
+      print("A. DPI (dots per itch)")
+      print("B. DPI (dots per inch)")
+      print("C. DPS (diameter perimeter speed")
+      print("D. PAD (perimeter area distance")
+
+      question_1 = input("Which letter is correct: ")
+
+      print()
+
+      if question_1 == "B":
+        print("Correct! On to the next question.")
+
+        print()
+
+        print("Question two. What is the smallest and fastest data storage on a computer?")
+        print()
+
+        print("A. Cashe")
+        print("B. Ram")
+        print("C. Hard Drive")
+
+        question_2 = input("Which letter is correct: ")
+          
+        print()
+
+        if question_2 == "A":
+          print("Correct! On to the last question.")
+
+          print()
+
+          print("Last and final question.")
+          print("What is the refresh on a computer monitor measured in?")
+
+          print()
+
+          print("A. Hurtz")
+          print("B. Fartz")
+          print("C. Hearts")
+          print("D. Hertz")
+
+          question_3 = input("Which letter is correct: ")
+
+          print()
+
+          if question_3 == "D":
+            print("Congratulations! You've completed the game!")
+            print("...")
+            print("For now...")
+            
+          elif question_3 == "C":
+            print("You were really that desperate? (Sorry for the insensitive joke.)")
+
+          else:
+            print("You were so close. Sorry to say this but you lost. Try a different answer next time!")
 
 
 
@@ -333,20 +425,104 @@ if char == "boy":
 
 
 
+    elif option_2 == "panic and throw a book at him":
+      print("*The boy slashes the book into a million fluttering shards. After a moment of silence he starts laughing.*")
 
+      print("???: Hahaha! That was so pathetic. I guess you aren't the ghost from my home town then. They are so weird because they just walk through anything and everything.")
 
+      print()
 
+      print("???: ...")
 
+      print()
 
+      print("???: Soooooo...What's your name? Mine is " + char_name + ".")
 
+      print()
 
+      print("*You reluctantly tell them your name. (It's only polite.)")
 
+      print(char_name + ": " + mc + " is a really nice name. It was nice to meet you but I should get going back- Oh yeah! How did I get here?")
 
+      print()
 
+      print("*He frantically looks around your room for a portal that isn't there. After a couple seconds of his searching your computer goes off and starts to spark and burn. " + char_name + " put out the flames with what seemed like ice magic on reflex. Sadly accidentally freezing your shiny RGB tower. (RIP that. OH! Ummmm...HI! You forgot I was narrator. :3) You start to sulk a little over your now ruined computer. Thankfuly you saved up a lot of money since you were planning to by some upgrades for you computer.*")
 
+      print(char_name + ": Ah- Was that normal for whatever that was.")
 
+      print("*You shake your head and grab his arm. He starts to flush a bright pink.*")
 
+      print(char_name + ": U-ummmmmm..." + mc + "... What are you doing?")
 
+      print()
+
+      print("*You grab his blade and place it on a table. Then you drag " + char_name + " to a nearby computer store since you just couldn't leave him at home. (To possibly break more things. Also hey quiz time!)")
+
+      # Mini game 
+      print("Okay so mini game time. Are you going to explain all things computers? No that would be too much so this is going to be a small multiple question quiz. Try your best to answer or you'll have to do the story all over again. All you need to do is...")
+
+      print()
+
+      print("TYPE THE LETTER <-Don't forget")
+
+      print()
+
+      print("How does a mouse convert distance for display?")
+      print()
+      print("A. DPI (dots per itch)")
+      print("B. DPI (dots per inch)")
+      print("C. DPS (diameter perimeter speed")
+      print("D. PAD (perimeter area distance")
+
+      question_1 = input("Which letter is correct: ")
+
+      print()
+
+      if question_1 == "B":
+        print("Correct! On to the next question.")
+
+        print()
+
+        print("Question two. What is the smallest and fastest data storage on a computer?")
+        print()
+
+        print("A. Cashe")
+        print("B. Ram")
+        print("C. Hard Drive")
+
+        question_2 = input("Which letter is correct: ")
+          
+        print()
+
+        if question_2 == "A":
+          print("Correct! On to the last question.")
+
+          print()
+
+          print("Last and final question.")
+          print("What is the refresh on a computer monitor measured in?")
+
+          print()
+
+          print("A. Hurtz")
+          print("B. Fartz")
+          print("C. Hearts")
+          print("D. Hertz")
+
+          question_3 = input("Which letter is correct: ")
+
+          print()
+
+          if question_3 == "D":
+            print("Congratulations! You've completed the game!")
+            print("...")
+            print("For now...")
+            
+          elif question_3 == "C":
+            print("You were really that desperate? (Sorry for the insensitive joke.)")
+
+          else:
+            print("You were so close. Sorry to say this but you lost. Try a different answer next time!")
 
 
 
