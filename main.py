@@ -290,12 +290,6 @@ if char == "boy":
 
 
 
-
-
-
-
-
-
   # The stay option for the boy.
   elif option_1 == "stay":
     print("???: Hey you! Don't ignore me where am I?")
@@ -424,7 +418,7 @@ if char == "boy":
 
 
 
-
+    # Yeeting/ throwing a book at them
     elif option_2 == "panic and throw a book at him":
       print("*The boy slashes the book into a million fluttering shards. After a moment of silence he starts laughing.*")
 
