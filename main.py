@@ -140,8 +140,6 @@ if char == "boy":
 
         if question_1 == "B":
           print("Correct! On to the next question.")
-        else:
-          print("Oof! You have been dead ended due to incorrect answer.")
 
           print()
 
@@ -158,8 +156,6 @@ if char == "boy":
 
           if question_2 == "A":
             print("Correct! On to the last question.")
-          else:
-            print("Oof! You have been dead ended due to incorrect answer.")
 
             print()
 
@@ -173,7 +169,7 @@ if char == "boy":
             print("C. Hearts")
             print("D. Hertz")
 
-            question_3 = input("Which letter is correct?")
+            question_3 = input("Which letter is correct: ")
 
             print()
 
@@ -195,7 +191,7 @@ if char == "boy":
 
     print()
 
-    option_2 = input("What do you want to say to him? 'who and what are you?' or do you want to 'panic and throw a book at him'")
+    option_2 = input("What do you want to say to him? 'who and what are you?' or do you want to 'panic and throw a book at him': ")
 
     print()
 
