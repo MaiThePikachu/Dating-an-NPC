@@ -434,7 +434,7 @@ if char == "boy":
 
       print()
 
-      print("*You reluctantly tell them your name. (It's only polite.)")
+      print("*You reluctantly tell them your name. (It's only polite.)*")
 
       print(char_name + ": " + mc + " is a really nice name. It was nice to meet you but I should get going back- Oh yeah! How did I get here?")
 
