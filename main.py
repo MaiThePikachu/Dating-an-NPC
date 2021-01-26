@@ -446,7 +446,7 @@ if char == "boy":
 
       print("*You shake your head and grab his arm. He starts to flush a bright pink.*")
 
-      print(char_name + ": U-ummmmmm..." + mc + "... What are you doing?")
+      print(char_name + ": U-ummmmmm..." + mc + "...What are you doing?")
 
       print()
 
