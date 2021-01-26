@@ -440,7 +440,7 @@ if char == "boy":
 
       print()
 
-      print("*He frantically looks around your room for a portal that isn't there. After a couple seconds of his searching your computer goes off and starts to spark and burn. " + char_name + " put out the flames with what seemed like ice magic on reflex. Sadly accidentally freezing your shiny RGB tower. (RIP that. OH! Ummmm...HI! You forgot I was narrator. :3) You start to sulk a little over your now ruined computer. Thankfuly you saved up a lot of money since you were planning to by some upgrades for you computer.*")
+      print("*He frantically looks around your room for a portal that isn't there. After a couple seconds of his searching your computer goes off and starts to spark and burn. " + char_name + " put out the flames with what seemed like ice magic on reflex. Sadly accidentally freezing your shiny RGB tower. (RIP that. OH! Ummmm...HI! You forgot I was narrator. :3) You start to sulk a little over your now ruined computer. Thankfuly you saved up a lot of money since you were planning to by some upgrades for your computer.*")
 
       print(char_name + ": Ah- Was that normal for whatever that was.")
 
